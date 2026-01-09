@@ -22,6 +22,23 @@
     padding: 12.5px 16px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+}
+.section-heading{
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+.section-heading h2{
+    /* border: 1px solid red; */
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding: 16px;
+}
+.section-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
 }
 header{
     background-color: #ffffff;
@@ -110,4 +127,46 @@ nav .menu a{
     padding: 12.5px 16px;
     font-size: 16px;
     font-weight: 600;
+}
+#notes{
+    padding-top: 60px;
+    /* margin: 0PX 120px; */
+    text-align: center;
+}
+#notes .notes-container{
+    width: 1360px;
+    height: 496px;
+    margin: 0 auto;
+   
+}
+#notes .notes-container .notes-box{
+    display: flex;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+}
+.notes-box .notes-cards{
+    /* padding: 44px; */
+    /* border: 1px solid black; */
+    /* margin: 24px; */
+    /* background-color: #F95555; */
+    row-gap: 24px;
+    align-items: center;
+}
+.notes-cards h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 24px 16px 24px;
+}
+.notes-cards p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+.notes-cards img{
+    border: 15px solid #F95555;
+    border-radius: 50%;
+    background-color: #F95555;
+    margin-top:  69.5px;
+    margin-left: 135px;
+    margin-right: 135px;
 }
