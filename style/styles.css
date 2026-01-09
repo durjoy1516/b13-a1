@@ -23,6 +23,8 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    display: inline flex;
+    gap: 10px;
 }
 .section-heading{
     margin: 0 auto;
@@ -47,16 +49,11 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    gap: 346px;
-    width: 1600px;
-    height: 92px;
-    /* max-width: 1600px; */
-    /* margin: 0px auto; */
-    margin-inline: 120px;
+    max-width: 1600px;
     padding: 16px 120px;
     align-items: center;
     /* border: 1px solid red; */
-    
+    margin: 0 auto;
 }
 nav .menu{
     display: flex;
@@ -69,9 +66,16 @@ nav .menu a{
     text-decoration: none;
     color: #000000;
 }
+.menu li:hover{
+   text-decoration: underline;
+}
+button:hover{
+    background: #118541;
+    box-shadow: 0px 6px 14px gray;
+}
 #banner{
     background: url(../assets/hero-bg.png);
-    /* background-size: cover; */
+    background-size: cover;
     /* background-repeat: no-repeat; */
     /* background-position: center; */
     width: 1600px;
@@ -79,7 +83,7 @@ nav .menu a{
     margin: 0 auto;
     /* border: 1px solid red; */
     /* margin: 16px 0px 0px 0px; */
-    padding: 70px 120px 134px 120px;
+    padding: 154.5px 120px 134px 120px;
     
 }
 #banner .banner-container{
@@ -97,6 +101,8 @@ nav .menu a{
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+    display: flex;
+    gap: 5px;
 }
 #banner .banner-container h1{
     color: #ffffff;
@@ -104,20 +110,32 @@ nav .menu a{
     font-style: bold;
     font-weight: 700;
     text-align: center;
+    margin: 0 auto;
+    padding-top: 16px;
 }
 #clr{
     color: #30B868;
 }
 #banner .banner-container p{
     color: #ffffff;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
+    margin: 0 auto;
+    padding-top: 16px;
+    text-align: center;
+    gap: 10px;
+}
+#sec-line{
+    display: block;
+    margin-top: 14px;
 }
 #devide{
     align-items: center;
-    width: 465px;
-    height: 52px;
+    max width: 465px;
+    max height: 52px;
+    display: flex;
     gap: 16px;
+    padding-top: 40px;
 }
 #devide .trans{
     background-color: transparent;
@@ -127,6 +145,8 @@ nav .menu a{
     padding: 12.5px 16px;
     font-size: 16px;
     font-weight: 600;
+    display: flex;
+    gap: 10px;
 }
 #notes{
     padding-top: 60px;
@@ -174,12 +194,14 @@ nav .menu a{
 #imagine .imagine-container{
     display: flex;
     align-items: center;
-    margin-left: 120px;
+    /* margin-left: 120px; */
+    max-width: 1600px;
+    margin: 0 auto;
     /* border: 1px solid red; */
     gap: 75px;
 }
 .imagine-container .img-contant{
-    padding-left: 120px;
+    padding-left: 170px;
 }
 .imagine-container .img-text{
     align-items: right;
@@ -210,11 +232,12 @@ nav .menu a{
     font-weight: 500;
     color: #001931;
     gap: 32px;
-    list-style-type: none;
+    list-style: none;
 }
 .img-text .img-list li{
     padding-bottom: 16px;
     align-items: center;
+    display: flex;
 }
 .main{
     padding: 2px 120px 120px 120px;
@@ -250,14 +273,14 @@ nav .menu a{
 .footer-data{
     background-color: #001931;
     padding: 10px;
-    margin-top: 120px;
+    margin: 0 auto;
+    width: 1600px;
 }
 .footer-data .head{
     display: flex;
     justify-content: space-between;
     margin: 120px 120px 30px 120px;
     padding-bottom: 80px;
-    /* align-items: center; */
 }
 .head .social{
     text-align: left;
@@ -273,8 +296,8 @@ nav .menu a{
     font-weight: 400;
     color: #FAFAFA;
     text-align: center;
-
-    padding: 40px 120px 0px 120px;
+    padding-top: 40px;
     border-top: 1px solid #E5E7EB;
-    border-width: 60%;
+    width: 85%;
+    margin: 0 auto;
 }
