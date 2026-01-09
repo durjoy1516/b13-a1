@@ -36,7 +36,7 @@
     padding: 16px;
 }
 .section-heading p{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #627382;
 }
@@ -77,7 +77,7 @@ nav .menu a{
     width: 1600px;
     height: 674px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* margin: 16px 0px 0px 0px; */
     padding: 70px 120px 134px 120px;
     
@@ -216,5 +216,65 @@ nav .menu a{
     padding-bottom: 16px;
     align-items: center;
 }
+.main{
+    padding: 2px 120px 120px 120px;
+}
+.main-container{
+    padding: 80px 40px 24px 40px;
+    text-align: center;
+}
+.main-container .main-head{
+    /* padding-bottom: 24px; */
+}
+.main-head h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px ;
+}
+.main-head p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    padding-bottom: 16px ;
+}
+.main-body{
+    align-items: center;
+}
+.main-body p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    padding-top: 16px ;
+}
+.footer-data{
+    background-color: #001931;
+    padding: 10px;
+    margin-top: 120px;
+}
+.footer-data .head{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 120px 30px 120px;
+    padding-bottom: 80px;
+    /* align-items: center; */
+}
+.head .social{
+    text-align: left;
+}
+.head .social h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.footer-data .foot{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+    text-align: center;
 
-
+    padding: 40px 120px 0px 120px;
+    border-top: 1px solid #E5E7EB;
+    border-width: 60%;
+}
