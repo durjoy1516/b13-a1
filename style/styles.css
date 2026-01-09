@@ -19,11 +19,12 @@
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    padding: 12.5px 16px;
+    padding: 14.5px 16px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     display: inline flex;
+    align-items: center;
     gap: 10px;
 }
 .section-heading{
@@ -131,8 +132,8 @@ button:hover{
 }
 #devide{
     align-items: center;
-    max width: 465px;
-    max height: 52px;
+    /* max width: 465px; */
+    /* height: 52px; */
     display: flex;
     gap: 16px;
     padding-top: 40px;
@@ -150,7 +151,6 @@ button:hover{
 }
 #notes{
     padding-top: 60px;
-    /* margin: 0PX 120px; */
     text-align: center;
 }
 #notes .notes-container{
@@ -167,7 +167,6 @@ button:hover{
     /* border: 1px solid black; */
 }
 .notes-box .notes-cards{
-    /* padding: 44px; */
     /* border: 1px solid black; */
     /* margin: 24px; */
     /* background-color: #F95555; */
@@ -246,9 +245,6 @@ button:hover{
     padding: 80px 40px 24px 40px;
     text-align: center;
 }
-.main-container .main-head{
-    /* padding-bottom: 24px; */
-}
 .main-head h1{
     font-size: 40px;
     font-weight: bold;
@@ -291,12 +287,16 @@ button:hover{
     color: #FFFFFF;
     padding-bottom: 16px;
 }
+.head .social .icon a{
+    padding-right: 6px;
+}
 .footer-data .foot{
     font-size: 16px;
     font-weight: 400;
     color: #FAFAFA;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     border-top: 1px solid #E5E7EB;
     width: 85%;
     margin: 0 auto;
