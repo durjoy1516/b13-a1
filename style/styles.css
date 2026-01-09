@@ -240,10 +240,19 @@ button:hover{
 }
 .main{
     padding: 2px 120px 120px 120px;
+    /* border: 1px solid black; */
+    width: 1600px;
+    margin: 0 auto;
 }
 .main-container{
     padding: 80px 40px 24px 40px;
+    /* margin-left: 120px; */
+    /* margin-right: 120px; */
+    width: 1360px;
     text-align: center;
+    /* border: 1px solid red; */
+    /* margin: 0 auto; */
+    background-color: #F7F6F2;
 }
 .main-head h1{
     font-size: 40px;
